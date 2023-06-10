@@ -1,0 +1,100 @@
+/* General Specs
+font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@400;600;700&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Abril Fatface', cursive;   
+}
+
+
+
+#section__one {
+    position: absolute;
+    width: 320px;
+    height: 778px;
+    left: 0px;
+    /* top: 608px; */
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #FFFFFF 100%);
+}
+
+.head {
+    position: absolute;
+    width: 288px;
+    height: 72px;
+    left: 15.55px;
+    /* top: 608px; */
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.main__image {
+    padding-top: 116.16px;
+    position: relative;
+    width: 209.94px;
+    height: 175.46px;
+    left: 26.71px;
+    /* top: 724.16px; */
+}
+
+/* .vectors {
+    position: relative;
+    left: 94.86%;
+    right: -74.19%;
+    top: 16.12%;
+    bottom: 81.03%;
+
+    background: #FFFFFF;
+    opacity: 0.5;
+    transform: rotate(143.88deg);
+} */
+
+#section__two {
+    position: absolute;
+    width: 289.55px;
+    height: 397px;
+    left: 14px;
+    top: 339px;
+    color: white;   
+    text-align: center;
+}
+
+#section__two h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.05em;    
+}
+
+#section__two p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    letter-spacing: 0.05em;
+}
+
+#btn-buy {
+    position: absolute;
+    width: 228px;
+    height: 32px;
+    left: 45.55px;
+    /* top: 1312px; */
+    background: #000000;
+    border-radius: 8px;
+}
